@@ -1,0 +1,204 @@
+body {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+h1 {
+   font-family: Papyrus;
+   font-size: 80px;
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+   position: absolute;
+   left: 80px;
+}
+
+h2 {
+  font-family: Papyrus;
+  font-size: 60px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position: absolute;
+  left: 80px;
+}
+
+a {
+  color: white;
+    text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+#scene {
+background: url("images/index2.png") no-repeat;
+height: 900px;
+width: 1599px;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+#scene-start {
+  background: url("images/chose_start2.png") no-repeat;
+  height: 900px;
+  width: 1599px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#scene-castle {
+  background: url("images/chose_castle2.png") no-repeat;
+  height: 900px;
+  width: 1599px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#scene-mountain {
+  background: url("images/mountain.png") no-repeat;
+  height: 900px;
+  width: 1599px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#scene-fight {
+  background: url("images/treasure.jpg") no-repeat;
+  height: 900px;
+  width: 1599px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#situation-run {
+  position: absolute;
+  font-size: 40px;
+  top: 310px;
+  left: 100px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(0,0,0,.5);
+  width: 1399px;
+  height: 30px;
+  text-align: center;
+}
+
+#situation-fight {
+  position: absolute;
+  font-size: 40px;
+  top: 310px;
+  left: 100px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(0,0,0,.5);
+  width: 1399px;
+  height: 30px;
+  text-align: center;
+}
+
+#situation {
+  position: absolute;
+  font-size: 40px;
+  top: 310px;
+  left: 100px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(0,0,0,.5);
+  width: 1399px;
+  height: 30px;
+  text-align: center;
+}
+
+#start-over {
+  position: absolute;
+  font-size: 40px;
+  top: 410px;
+  left: 100px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(0,0,0,.5);
+  width: 1399px;
+  height: 30px;
+  text-align: center;
+}
+
+#mountain {
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  width: 400px;
+  height: 600px;
+}
+#mountain:hover {
+  background-color: rgb(256, 256, 256, .5);
+}
+
+#castle {
+
+  position: absolute;
+  left: 1150px;
+  top: 120px;
+  width: 400px;
+  height: 600px;
+}
+
+#castle:hover {
+  background-color: rgb(256, 256, 256, .5);
+}
+
+#run {
+
+  position: absolute;
+  left: 100px;
+
+  width: 400px;
+  height: 600px;
+
+  opacity: 0;
+}
+#run:hover {
+  background-color: rgb(256, 256, 256, .3);
+
+  opacity: 1;
+}
+
+#fight {
+
+  position: absolute;
+  left: 900px;
+
+  width: 500px;
+  height: 600px;
+
+  opacity: 0;
+}
+
+#fight:hover {
+  background-color: rgb(256, 256, 256, .3);
+
+  opacity: 1;
+}
+
+#credit {
+  position: absolute;
+  font-size: 22px;
+  color: black;
+  top: 800px;
+  left: 100px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(256, 256, 256, .3);
+  width: 1399px;
+  height: 30px;
+  text-align: center;
+}
+
+#credit-link {
+  color: black;
+  text-decoration: none;
+}
+
+#credit-link:hover {
+  color: blue;
+  font-weight: bold;
+}
